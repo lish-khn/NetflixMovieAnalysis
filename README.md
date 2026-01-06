@@ -2,12 +2,10 @@
 
 
 *Project Overview*
-
 This project revisits and extends an exploratory data analysis of Netflix movie data with a focused lens on the 1990s decade (1990–1999). The objective is to understand how movie durations and genre patterns looked before the rise of streaming-era content, and to identify trends in short-form movies, particularly within the Action genre.
 The project has been updated with improved data cleaning, clearer feature definitions, and more structured visual analysis.
 
-**Key Questions**
-
+*Key Questions*
 The analysis seeks to answer the following:
 What was the most frequent movie duration in the 1990s?
 How common were short movies (less than 90 minutes) during this decade?
