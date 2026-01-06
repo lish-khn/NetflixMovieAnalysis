@@ -1,4 +1,4 @@
-**Investigating Netflix Movies: A 1990s Exploratory Analysis**
+***Investigating Netflix Movies: A 1990s Exploratory Analysis***
 
 
 **Project Overview**
