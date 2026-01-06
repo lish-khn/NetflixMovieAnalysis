@@ -38,5 +38,5 @@ The analysis focuses on understanding movies by **decades**, **genres**, and **d
 - **Matplotlib & Seaborn** – Data visualization  
 - **Jupyter Notebook** – Interactive analysis
 
-##Author
+## Author
 Alisha Khan – Data Enthusiast
