@@ -1,7 +1,7 @@
 # Netflix Movies Analysis Project
 
 ## Project Overview
-This project performs **exploratory data analysis (EDA)** on a Netflix movies dataset to gain insights into trends, durations, genres, and patterns of movies released over the years.  
+This project performs **exploratory data analysis (EDA)** on a Netflix movies dataset to gain insights into durations, genres, and patterns of movies released over the years.  
 The analysis focuses on understanding movies by **decades**, **genres**, and **duration**, along with visualizations to support data-driven insights.
 
 ## Dataset
