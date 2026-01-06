@@ -1,121 +1,71 @@
-Investigating Netflix Movies: A 1990s Exploratory Analysis
+Netflix Movies Analysis Project
 Project Overview
 
-This project revisits and extends an exploratory data analysis of Netflix movie data with a focused lens on the 1990s decade (1990–1999). The objective is to understand how movie durations and genre patterns looked before the rise of streaming-era content, and to identify trends in short-form movies, particularly within the Action genre.
-
-The project has been updated with improved data cleaning, clearer feature definitions, and more structured visual analysis.
-
-Key Questions
-
-The analysis seeks to answer the following:
-
-What was the most frequent movie duration in the 1990s?
-
-How common were short movies (less than 90 minutes) during this decade?
-
-How many short Action movies were released in the 1990s?
-
-How does movie duration vary across genres and release years?
+This project performs exploratory data analysis (EDA) on a Netflix movies dataset to gain insights into trends, durations, genres, and patterns of movies released over the years. The analysis focuses on understanding movies by decades, genres, and duration, along with visualizations to support data-driven insights.
 
 Dataset
 
 File: netflix_data.csv
 
-Scope: Netflix titles metadata
+Source: Publicly available Netflix dataset (e.g., Kaggle)
 
-Key fields used:
+Columns include:
 
-title
+Title – Name of the movie
 
-genre
+Genre – Movie genre
 
-release_year
+Duration – Movie duration in minutes
 
-duration
+Release_Year – Year of release
 
-type
+Director – Director of the movie
 
-Only movies were included in this analysis; TV shows were excluded.
+Country – Country of origin
 
-Data Preparation
+Rating – Movie rating (if available)
 
-The following preprocessing steps were performed:
+Features & Analysis
 
-Filtered the dataset to include only movies
+Data Cleaning: Handling missing values, duplicates, and incorrect entries.
 
-Isolated movies released between 1990 and 1999
+Decade Analysis: Analyze movies released in specific decades (e.g., 1990s) for patterns.
 
-Converted duration values from strings (e.g., "90 min") to integers
+Duration Analysis: Identify the most frequent movie duration.
 
-Defined a short movie as one with a duration under 90 minutes
+Genre Analysis: Count of movies per genre and identification of short movies (<90 minutes) in each genre.
 
-These steps ensured numerical accuracy and consistency in the analysis.
+Visualization:
 
-Exploratory Data Analysis
+Histograms for movie duration
 
-The EDA includes:
+Bar charts for genre frequency
 
-Distribution analysis of movie durations in the 1990s
+Scatterplots for year vs duration trends
 
-Identification of the mode (most frequent duration) for the decade
+Key Insights
 
-Genre-based segmentation, with a focus on Action movies
+Most frequent movie duration in the 1990s: duration minutes (replace with your calculated value)
 
-A scatter plot visualizing movie duration vs. release year, with genre-based color coding
+Number of short action movies in the 1990s: count (replace with your calculated value)
 
-Visualization
+Top genres in each decade and duration trends
 
-Movie Duration by Year of Release
+Tools & Libraries
 
-X-axis: Release Year
+Python – Main programming language
 
-Y-axis: Duration (minutes)
+Pandas – Data manipulation
 
-Colors indicate genre categories (Children, Documentaries, Stand-Up, Other)
+NumPy – Numerical operations
 
-This visualization highlights long-term duration trends and the emergence of shorter formats in specific genres.
+Matplotlib & Seaborn – Data visualization
 
-Key Results
+Jupyter Notebook – Interactive analysis
 
-Most frequent movie duration in the 1990s: stored as duration
+How to Run
 
-Number of short Action movies in the 1990s: stored as short_movie_count
-
-These values summarize the core findings and serve as reference points for further exploration.
-
-Tools & Technologies
-
-Python
-
-pandas
-
-matplotlib
-
-Jupyter Notebook
-
-Project Structure
-investigating-netflix-movies/
-│
-├── data/
-│   └── netflix_data.csv
-│
-├── notebook/
-│   └── netflix_1990s_eda.ipynb
-│
-├── visuals/
-│   └── movie_duration_by_year.png
-│
-├── README.md
-└── requirements.txt
-
-Future Improvements
-
-Extend analysis to other decades for comparison
-
-Perform genre-wise duration trend analysis
-
-Introduce interactive visualizations
-
+Clone the repository:
 Build a dashboard summarizing decade-level insights
 
 Conclusion
