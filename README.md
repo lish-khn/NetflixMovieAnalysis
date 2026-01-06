@@ -1,5 +1,6 @@
 **Investigating Netflix Movies: A 1990s Exploratory Analysis**
 
+
 *Project Overview*
 This project revisits and extends an exploratory data analysis of Netflix movie data with a focused lens on the 1990s decade (1990–1999). The objective is to understand how movie durations and genre patterns looked before the rise of streaming-era content, and to identify trends in short-form movies, particularly within the Action genre.
 The project has been updated with improved data cleaning, clearer feature definitions, and more structured visual analysis.
